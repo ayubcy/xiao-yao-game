@@ -75,87 +75,87 @@
 <body>
 
     <div class="game-container" onclick="resetIdleTimer()">
-        <img class="background" src="https://z.wiki/u/Pgqc4EaGR" alt="背景">
-        <div class="character" id="character" style="background-image: url('https://z.wiki/u/39i9oWfwd');"></div>
-        <div class="name-box" style="background-image: url('https://z.wiki/u/F1I5hYxLc');">逍遥</div>
-        <div class="dialogue-box" style="background-image: url('https://z.wiki/u/8ICI8azcG');"></div>
+        <img class="background" src="https://i.imgur.com/hlVT4Ml.png" alt="背景">
+        <div class="character" id="character" style="background-image: url('https://i.imgur.com/yZPYlsM.png');"></div>
+        <div class="name-box" style="background-image: url('https://i.imgur.com/tQKuIOg.png');">逍遥</div>
+        <div class="dialogue-box" style="background-image: url('https://i.imgur.com/IvHfm62.png');"></div>
         <div class="dialogue-text" id="dialogue-text">嗯？你来了呀。</div>
 
         <div class="buttons-container">
             <!-- 主菜单 -->
             <div id="group-main" class="fade-in">
                 <div class="action-button" onclick="handleButtonClick(this, 'touch')" 
-                     data-normal="https://z.wiki/u/VDf1bRkQM" 
-                     data-click="https://z.wiki/u/W2UiSLy8h"
-                     style="background-image: url('https://z.wiki/u/VDf1bRkQM');"></div>
+                     data-normal="https://i.imgur.com/rBF0R5f.png" 
+                     data-click="https://i.imgur.com/sllXqDn.png"
+                     style="background-image: url('https://i.imgur.com/rBF0R5f.png');"></div>
                 <div class="action-button" onclick="handleButtonClick(this, 'chat')" 
-                     data-normal="https://z.wiki/u/NaVWRoc6w" 
-                     data-click="https://z.wiki/u/9Id4xKlyE"
-                     style="background-image: url('https://z.wiki/u/NaVWRoc6w');"></div>
+                     data-normal="https://i.imgur.com/mBeLk8C.png" 
+                     data-click="https://i.imgur.com/XNQiSp5.png"
+                     style="background-image: url('https://i.imgur.com/mBeLk8C.png');"></div>
                 <div class="action-button" onclick="handleButtonClick(this, 'gift')" 
-                     data-normal="https://z.wiki/u/5ZusZUApM" 
-                     data-click="https://z.wiki/u/gTanLxKBo"
-                     style="background-image: url('https://z.wiki/u/5ZusZUApM');"></div>
+                     data-normal="https://i.imgur.com/lcQfazG.png" 
+                     data-click="https://i.imgur.com/C1dp0E2.png"
+                     style="background-image: url('https://i.imgur.com/lcQfazG.png');"></div>
             </div>
 
             <!-- 子菜单：触摸 -->
             <div id="group-touch" class="hidden">
                 <div class="action-button" onclick="handleSubAction('touch', 'head', this)" 
-                     data-normal="https://z.wiki/u/lPdVJSfMg" 
-                     data-click="https://z.wiki/u/nXCSq2omr"
-                     style="background-image: url('https://z.wiki/u/lPdVJSfMg');"></div>
+                     data-normal="https://i.imgur.com/V8lTawq.png" 
+                     data-click="https://i.imgur.com/EWp7doC.png"
+                     style="background-image: url('https://i.imgur.com/V8lTawq.png');"></div>
                 <div class="action-button" onclick="handleSubAction('touch', 'face', this)" 
-                     data-normal="https://z.wiki/u/H4nnaATOR" 
-                     data-click="https://z.wiki/u/puVbYbnbC"
-                     style="background-image: url('https://z.wiki/u/H4nnaATOR');"></div>
+                     data-normal="https://i.imgur.com/r7dVOAD.png" 
+                     data-click="https://i.imgur.com/Ok9cJRV.png"
+                     style="background-image: url('https://i.imgur.com/r7dVOAD.png');"></div>
                 <div class="action-button" onclick="handleSubAction('touch', 'clothes', this)" 
-                     data-normal="https://z.wiki/u/uo7t7ILP6" 
-                     data-click="https://z.wiki/u/D3miTqDFF"
-                     style="background-image: url('https://z.wiki/u/uo7t7ILP6');"></div>
+                     data-normal="https://i.imgur.com/uZMD2p5.png" 
+                     data-click="https://i.imgur.com/yTmZWJQ.png"
+                     style="background-image: url('https://i.imgur.com/uZMD2p5.png');"></div>
                 <div class="action-button" onclick="switchGroup('main')" 
-                     data-normal="https://z.wiki/u/MW5ObvZ9h" 
-                     data-click="https://z.wiki/u/iq5ylZkUJ"
-                     style="background-image: url('https://z.wiki/u/MW5ObvZ9h');"></div>
+                     data-normal="https://i.imgur.com/9jhRDD7.png" 
+                     data-click="https://i.imgur.com/WeVSssO.png"
+                     style="background-image: url('https://i.imgur.com/9jhRDD7.png');"></div>
             </div>
 
             <!-- 子菜单：聊天 -->
             <div id="group-chat" class="hidden">
                 <div class="action-button" onclick="handleSubAction('chat', 'normal', this)" 
-                     data-normal="https://z.wiki/u/NaVWRoc6w" 
-                     data-click="https://z.wiki/u/9Id4xKlyE"
-                     style="background-image: url('https://z.wiki/u/NaVWRoc6w');"></div>
+                     data-normal="https://i.imgur.com/mBeLk8C.png" 
+                     data-click="https://i.imgur.com/XNQiSp5.png"
+                     style="background-image: url('https://i.imgur.com/mBeLk8C.png');"></div>
                 <div class="action-button" onclick="handleSubAction('chat', 'time', this)" 
-                     data-normal="https://z.wiki/u/c7bo4ffXs" 
-                     data-click="https://z.wiki/u/4JgUMdF5B"
-                     style="background-image: url('https://z.wiki/u/c7bo4ffXs');"></div>
+                     data-normal="https://i.imgur.com/e8cHMOX.png" 
+                     data-click="https://i.imgur.com/azARueK.png"
+                     style="background-image: url('https://i.imgur.com/e8cHMOX.png');"></div>
                 <div class="action-button" onclick="handleSubAction('chat', 'mood', this)" 
-                     data-normal="https://z.wiki/u/46xt4mEhe" 
-                     data-click="https://z.wiki/u/DoZrvcLWf"
-                     style="background-image: url('https://z.wiki/u/46xt4mEhe');"></div>
+                     data-normal="https://i.imgur.com/WjcjOjJ.png" 
+                     data-click="https://i.imgur.com/Gu2pCE0.png"
+                     style="background-image: url('https://i.imgur.com/WjcjOjJ.png');"></div>
                 <div class="action-button" onclick="switchGroup('main')" 
-                     data-normal="https://z.wiki/u/MW5ObvZ9h" 
-                     data-click="https://z.wiki/u/iq5ylZkUJ"
-                     style="background-image: url('https://z.wiki/u/MW5ObvZ9h');"></div>
+                     data-normal="https://i.imgur.com/9jhRDD7.png" 
+                     data-click="https://i.imgur.com/WeVSssO.png"
+                     style="background-image: url('https://i.imgur.com/9jhRDD7.png');"></div>
             </div>
 
             <!-- 子菜单：礼物 -->
             <div id="group-gift" class="hidden">
                 <div class="action-button" onclick="handleSubAction('gift', 'cow', this)" 
-                     data-normal="https://z.wiki/u/pOuuZupjb" 
-                     data-click="https://z.wiki/u/q8IoJ8R7N"
-                     style="background-image: url('https://z.wiki/u/pOuuZupjb');"></div>
+                     data-normal="https://i.imgur.com/QoXUqw4.png" 
+                     data-click="https://i.imgur.com/4qxtFc3.png"
+                     style="background-image: url('https://i.imgur.com/QoXUqw4.png');"></div>
                 <div class="action-button" onclick="handleSubAction('gift', 'tease', this)" 
-                     data-normal="https://z.wiki/u/VAekZ96fi" 
-                     data-click="https://z.wiki/u/DlBuKdBDk"
-                     style="background-image: url('https://z.wiki/u/VAekZ96fi');"></div>
+                     data-normal="https://i.imgur.com/TKvsXOz.png" 
+                     data-click="https://i.imgur.com/k0ba1GC.png"
+                     style="background-image: url('https://i.imgur.com/TKvsXOz.png');"></div>
                 <div class="action-button" onclick="handleSubAction('gift', 'grass', this)" 
-                     data-normal="https://z.wiki/u/yP54drXWv" 
-                     data-click="https://z.wiki/u/39qufBclO"
-                     style="background-image: url('https://z.wiki/u/yP54drXWv');"></div>
+                     data-normal="https://i.imgur.com/j5L2ber.png" 
+                     data-click="https://i.imgur.com/WeVSssO.png"
+                     style="background-image: url('https://i.imgur.com/j5L2ber.png');"></div>
                 <div class="action-button" onclick="switchGroup('main')" 
-                     data-normal="https://z.wiki/u/MW5ObvZ9h" 
-                     data-click="https://z.wiki/u/iq5ylZkUJ"
-                     style="background-image: url('https://z.wiki/u/MW5ObvZ9h');"></div>
+                     data-normal="https://i.imgur.com/9jhRDD7.png" 
+                     data-click="https://i.imgur.com/WeVSssO.png"
+                     style="background-image: url('https://i.imgur.com/9jhRDD7.png');"></div>
             </div>
         </div>
     </div>
@@ -163,16 +163,16 @@
     <script>
         const assets = {
             char: {
-                normal: "https://z.wiki/u/39i9oWfwd",
-                grass: "https://z.wiki/u/PFXKoG9LI",
-                speak: "https://z.wiki/u/ZaoS2YZa9",
-                laugh: "https://z.wiki/u/ukEwOmjPf",
-                cat: "https://z.wiki/u/NIZtsVXNr",
-                cat_blush: "https://z.wiki/u/DBeT0GpYa",
-                angry: "https://z.wiki/u/AX1BKw5MI",
-                mad: "https://z.wiki/u/LyM251hkJ",
-                sad: "https://z.wiki/u/rAZxnpWge",
-                confused: "https://z.wiki/u/Yj17IdQa8"
+                normal: "https://i.imgur.com/yZPYlsM.png",
+                grass: "https://i.imgur.com/x5wb8tN.png",
+                speak: "https://i.imgur.com/y0hfCsu.png",
+                laugh: "https://i.imgur.com/smn8bwT.png",
+                cat: "https://i.imgur.com/Y4B6GE7.png",
+                cat_blush: "https://i.imgur.com/Kb5yad5.png",
+                angry: "https://i.imgur.com/ikqWzN6.png",
+                mad: "https://i.imgur.com/Vr3g4o6.png",
+                sad: "https://i.imgur.com/yjQT4wo.png",
+                confused: "https://i.imgur.com/pKfOjcp.png"
             }
         };
 
